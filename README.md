@@ -90,3 +90,4 @@ Your environment will have following set up:
 ## Trouble Shooting
 
 - `Error HH8: There's one or more errors in your config file` error: If you get this error try setting up your `YOUR_ALCHEMY_API_KEY` and `YOUR_WALLET_PRIVATE_KEY` in .env file
+# -NFTInu-rinkeby-

@@ -1,6 +1,5 @@
 import { ethers } from 'ethers';
 import hardhat_abis from '../abis/hardhat';
-import rinkeby_abis from '../abis/rinkeby';
 import mainnet_abis from '../abis/mainnet';
 import erc721_abi from '../abis/ERC721.json'
 import LoginService from './LoginService';
@@ -8,7 +7,7 @@ import LoginService from './LoginService';
 function getABIDirectory() {
   const DirectoryByChainID = {
     "1": mainnet_abis,
-    "4": rinkeby_abis,
+   
     "31337": hardhat_abis,
   };
   const jsonFiles = DirectoryByChainID[LoginService.getInstance().chainId];
